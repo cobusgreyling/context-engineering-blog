@@ -27,6 +27,8 @@ pip install gradio
 python context_engineering_demo.py
 ```
 
+![Layers](2026-04-07_16-47-38.jpg)
+
 ## Files
 
 | File | Description |
