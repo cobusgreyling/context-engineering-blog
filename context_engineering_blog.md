@@ -2,7 +2,7 @@
 
 Your AI coding agent isn't as smart as you think. It's as well-managed as someone engineered its context to be.
 
-![Context Engineering Architecture](images/ce1.png)
+![Context Engineering — Adaptive Context Compaction Pipeline](2026-04-07_17-11-56.jpg)
 
 ## In Short
 
@@ -116,6 +116,8 @@ python context_engineering_demo.py
 ```
 
 No API key needed. The demo uses simulated LLM responses to demonstrate the context management mechanics themselves, which is the point.
+
+![Layers](2026-04-07_16-47-38.jpg)
 
 ## Bottom Line
 
