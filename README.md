@@ -18,6 +18,9 @@ This repo accompanies a blog post that distils the key context engineering patte
 
 These patterns are what separate agents that work for 5 turns in a demo from those that work for 40+ turns in production.
 
+![Layers](2026-04-07_16-47-38.jpg)
+
+
 ## Interactive Demo
 
 The included Gradio app simulates a multi-turn coding agent session demonstrating the compaction pipeline, tool result optimisation, and system reminders in action. No API key needed.
@@ -26,8 +29,6 @@ The included Gradio app simulates a multi-turn coding agent session demonstratin
 pip install gradio
 python context_engineering_demo.py
 ```
-
-![Layers](2026-04-07_16-47-38.jpg)
 
 ## Files
 
