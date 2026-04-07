@@ -1,6 +1,6 @@
 # Context Engineering Is the Real Product
 
-![Context Engineering — Adaptive Context Compaction Pipeline](images/context_engineering_banner.svg)
+![Context Engineering — Adaptive Context Compaction Pipeline](2026-04-07_17-11-56.jpg)
 
 Blog post and interactive demo exploring context engineering patterns from the [OpenDev technical report](https://arxiv.org/abs/2603.05344) — the first comprehensive paper documenting the architecture of an open-source, terminal-native coding agent.
 
