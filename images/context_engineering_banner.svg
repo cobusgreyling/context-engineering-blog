@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gaugeTrack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#334155"/>
+      <stop offset="100%" style="stop-color:#475569"/>
+    </linearGradient>
+    <linearGradient id="stage1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#4ade80"/>
+    </linearGradient>
+    <linearGradient id="stage2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eab308"/>
+      <stop offset="100%" style="stop-color:#facc15"/>
+    </linearGradient>
+    <linearGradient id="stage3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fb923c"/>
+    </linearGradient>
+    <linearGradient id="stage4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#f87171"/>
+    </linearGradient>
+    <linearGradient id="stage5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="60" y1="0" x2="60" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="180" y1="0" x2="180" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="420" y1="0" x2="420" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="540" y1="0" x2="540" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="660" y1="0" x2="660" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="780" y1="0" x2="780" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="840" y1="0" x2="840" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="1020" y1="0" x2="1020" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="1080" y1="0" x2="1080" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="1140" y1="0" x2="1140" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="630" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="360" x2="1200" y2="360" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="480" x2="1200" y2="480" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="540" x2="1200" y2="540" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="0" y1="600" x2="1200" y2="600" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="80" text-anchor="middle" fill="#f8fafc" font-size="38" font-weight="700" letter-spacing="-0.5">Context Engineering</text>
+  <text x="600" y="118" text-anchor="middle" fill="#94a3b8" font-size="18" font-weight="400" letter-spacing="0.5">ADAPTIVE CONTEXT COMPACTION PIPELINE</text>
+
+  <!-- Main gauge area -->
+  <g transform="translate(100, 160)">
+    <!-- Gauge background track -->
+    <rect x="0" y="60" width="1000" height="50" rx="25" fill="url(#gaugeTrack)" opacity="0.5"/>
+
+    <!-- Stage segments with gaps -->
+    <!-- Nominal: 0-70% (700px) -->
+    <rect x="4" y="64" width="692" height="42" rx="21" fill="url(#stage1)" opacity="0.85"/>
+
+    <!-- Stage 1 Warning: 70-80% -->
+    <rect x="700" y="64" width="96" height="42" rx="4" fill="url(#stage2)" opacity="0.85"/>
+
+    <!-- Stage 2 Observation Masking: 80-85% -->
+    <rect x="800" y="64" width="46" height="42" rx="4" fill="url(#stage3)" opacity="0.85"/>
+
+    <!-- Stage 3 Aggressive Masking: 85-90% -->
+    <rect x="850" y="64" width="46" height="42" rx="4" fill="url(#stage4)" opacity="0.85"/>
+
+    <!-- Stage 4 Full Compaction: 90-99% -->
+    <rect x="900" y="64" width="92" height="42" rx="4" fill="url(#stage5)" opacity="0.85"/>
+
+    <!-- Remaining: 99-100% -->
+    <rect x="996" y="64" width="0" height="42" rx="0" fill="#991b1b" opacity="0.4"/>
+
+    <!-- Tick marks and labels -->
+    <line x1="700" y1="50" x2="700" y2="120" stroke="#94a3b8" stroke-width="1" opacity="0.5"/>
+    <text x="700" y="40" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">70%</text>
+    <text x="700" y="145" text-anchor="middle" fill="#eab308" font-size="11" font-weight="500">Warning</text>
+
+    <line x1="800" y1="50" x2="800" y2="120" stroke="#94a3b8" stroke-width="1" opacity="0.5"/>
+    <text x="800" y="40" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">80%</text>
+    <text x="800" y="145" text-anchor="middle" fill="#f97316" font-size="11" font-weight="500">Masking</text>
+
+    <line x1="850" y1="50" x2="850" y2="120" stroke="#94a3b8" stroke-width="1" opacity="0.5"/>
+    <text x="850" y="40" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">85%</text>
+    <text x="850" y="145" text-anchor="middle" fill="#f97316" font-size="11" font-weight="500">Pruning</text>
+
+    <line x1="900" y1="50" x2="900" y2="120" stroke="#94a3b8" stroke-width="1" opacity="0.5"/>
+    <text x="900" y="40" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">90%</text>
+    <text x="900" y="145" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="500">Aggressive</text>
+
+    <line x1="990" y1="50" x2="990" y2="120" stroke="#94a3b8" stroke-width="1" opacity="0.5"/>
+    <text x="990" y="40" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600">99%</text>
+    <text x="990" y="145" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="500">Compaction</text>
+
+    <!-- Current pressure indicator (needle at ~82%) -->
+    <g transform="translate(820, 85)" filter="url(#glow)">
+      <polygon points="0,-30 -8,5 8,5" fill="#f8fafc"/>
+    </g>
+    <text x="820" y="170" text-anchor="middle" fill="#f8fafc" font-size="12" font-weight="600">CURRENT: 82%</text>
+  </g>
+
+  <!-- Bottom info cards -->
+  <g transform="translate(100, 400)">
+    <!-- Card 1: Token compression -->
+    <rect x="0" y="0" width="300" height="120" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="24" y="32" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1">TOOL OUTPUT</text>
+    <text x="24" y="62" fill="#ef4444" font-size="24" font-weight="700">30,000</text>
+    <text x="160" y="62" fill="#94a3b8" font-size="24" font-weight="300">&rarr;</text>
+    <text x="195" y="62" fill="#22c55e" font-size="24" font-weight="700">~100</text>
+    <text x="24" y="82" fill="#64748b" font-size="13">tokens per observation</text>
+    <text x="24" y="104" fill="#475569" font-size="12">Compress at ingestion, recover on demand</text>
+
+    <!-- Card 2: Session extension -->
+    <rect x="350" y="0" width="300" height="120" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="374" y="32" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1">SESSION LENGTH</text>
+    <text x="374" y="62" fill="#ef4444" font-size="24" font-weight="700">15</text>
+    <text x="414" y="62" fill="#94a3b8" font-size="24" font-weight="300">&rarr;</text>
+    <text x="449" y="62" fill="#22c55e" font-size="24" font-weight="700">40+</text>
+    <text x="374" y="82" fill="#64748b" font-size="13">turns before context overflow</text>
+    <text x="374" y="104" fill="#475569" font-size="12">Cheaper stages often reclaim enough space</text>
+
+    <!-- Card 3: Instruction fade -->
+    <rect x="700" y="0" width="300" height="120" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="724" y="32" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1">SYSTEM REMINDERS</text>
+    <text x="724" y="62" fill="#f8fafc" font-size="24" font-weight="700">8</text>
+    <text x="752" y="62" fill="#64748b" font-size="16">event detectors</text>
+    <text x="724" y="82" fill="#64748b" font-size="13">combat instruction fade-out</text>
+    <text x="724" y="104" fill="#475569" font-size="12">Injected at decision points, not boot time</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="600" y="575" text-anchor="middle" fill="#475569" font-size="14" font-weight="400">Based on the OpenDev Technical Report (arXiv:2603.05344)</text>
+  <text x="600" y="600" text-anchor="middle" fill="#334155" font-size="12">Context is a budget, not a log</text>
+</svg>
